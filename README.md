@@ -1,4 +1,5 @@
 sixth-grid
 ==========
 
-Sixth Grid that a Minimal Grid System for Web Design
+Sixth Grid 是一个极其简洁的栅格系统。然而它能很好的实现响应化的网页设计，支持固定
+宽度和非固定宽度的网页设计以及各种屏幕分辨率的设备。
