@@ -1,10 +1,14 @@
 /*
- * bitty: a simple grid system for minimalist
+ * Bitty Grid: a simple grid system for minimalist
  * Copyright 2013 Ma Yanbin
  */
 
+body {
+    margin: 0;
+}
 
 .container {
+    box-sizing: border-box;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -63,9 +67,7 @@
 .col-5,
 .col-6 {
     position: relative;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     min-height: 1px;
     padding: 0 15px;
 }
